@@ -1,0 +1,12 @@
+# Core ML
+tensorflow>=2.12,<3.0
+
+# Numerical computing
+numpy>=1.23,<2.0
+
+# Computer Vision
+opencv-python>=4.7,<5.0
+
+# Utilidades estándar (no requieren instalación, se documentan)
+# argparse -> stdlib
+# os       -> stdlib

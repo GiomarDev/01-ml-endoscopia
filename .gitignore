@@ -1,0 +1,93 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ===============================
+# Virtual Environments
+# ===============================
+venv/
+.venv/
+env/
+ENV/
+.python-version
+
+# ===============================
+# Jupyter / ML
+# ===============================
+.ipynb_checkpoints/
+*.ipynb_meta
+*.nbconvert.ipynb
+
+# ===============================
+# Data & Datasets
+# (no subir data pesada ni sensible)
+# ===============================
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.h5
+*.hdf5
+
+# ===============================
+# Model artifacts
+# ===============================
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# ===============================
+# Logs & outputs
+# ===============================
+logs/
+*.log
+outputs/
+results/
+runs/
+
+# ===============================
+# ML tools
+# ===============================
+.mlflow/
+wandb/
+tensorboard/
+tb_logs/
+
+# ===============================
+# Caches
+# ===============================
+.cache/
+.mypy_cache/
+.pytest_cache/
+ruff_cache/
+
+# ===============================
+# IDEs & Editors
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Environment variables
+# ===============================
+.env
+.env.*
